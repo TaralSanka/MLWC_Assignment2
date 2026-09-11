@@ -1,0 +1,16 @@
+# Generated datasets - large and fully reproducible from the fixed seeds.
+# Recreate with: bash run_all.sh
+data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
