@@ -14,3 +14,12 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+
+# LaTeX build artefacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz

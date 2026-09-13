@@ -50,8 +50,18 @@ MLWC_Assignment2/
 │       └── appendix_phase_definitions.csv
 │
 └── report/
-    ├── OBSERVATIONS_Q1.md                # written observations, Question 1
-    └── OBSERVATIONS_Q2.md                # written observations, Question 2
+    ├── report.tex                         # SUBMISSION: single consolidated report
+    ├── report.pdf                         # compiled, 15 pages, all figures embedded
+    ├── figures/                           # figure copies referenced by report.tex
+    ├── OBSERVATIONS_Q1.md                 # working notes, Question 1
+    └── OBSERVATIONS_Q2.md                 # working notes, Question 2
+```
+
+`report/report.pdf` is the single PDF to upload to the course portal. It contains every
+figure and every written observation, numbered by question. Rebuild it with:
+
+```bash
+cd report && pdflatex report.tex && pdflatex report.tex
 ```
 
 The generated CSVs in `data/` are git-ignored because they are large and fully
