@@ -47,10 +47,8 @@ MLWC_Assignment2/
 │
 └── report/
     ├── report.tex
-    ├── report.pdf
+    ├── IMT2023588_report.pdf
     ├── figures/
-    ├── OBSERVATIONS_Q1.md
-    └── OBSERVATIONS_Q2.md
 ```
 
 ### What each part holds
@@ -70,7 +68,7 @@ plus an appendix diagnostic on the instantaneous-phase definition.
 **`figures/` and `results/`** — written by the analysis scripts. `figures/` holds the PNGs that
 appear in the report; `results/` holds the numeric tables behind them, one CSV per table.
 
-**`report/`** — `report.pdf` is the single PDF submitted to the course portal, containing all
+**`report/`** — `IMT2023588_report.pdf` is the single PDF submitted to the course portal, containing all
 figures and written observations numbered by question. `report.tex` is its source and
 `report/figures/` the copies it references. The two `OBSERVATIONS_*.md` files are the longer
 working notes the report was condensed from.
